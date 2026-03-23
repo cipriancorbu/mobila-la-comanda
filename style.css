@@ -79,8 +79,10 @@ body {
   font-weight: 600;
 }
 
-.nav-links a:hover {
-  color: var(--primary);
+.nav-links {
+  background: #dddddd;
+  border: 1px solid #cfcfcf;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
 }
 
 .menu-toggle {
