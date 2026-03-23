@@ -5,15 +5,14 @@
 }
 
 :root {
-  --bg: #1468795b;
-  --text: #1f1f1f;
-  --muted: #48818d;
-  --primary:  #507c8a60;
-  --primary-dark: #044045cb;
-  --white: #ffffff;
-  --card: #fffaf5;
-  --border: #e7ddd2;
-  --shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --bg: #f4f4f4;          /* fundal principal */
+  --card: #ffffff;       /* carduri */
+  --text: #1f1f1f;       /* text principal */
+  --muted: #6b6b6b;      /* text secundar */
+  --primary: #3a3a3a;    /* butoane + accente */
+  --primary-dark: #1f1f1f;
+  --border: #e2e2e2;
+  --shadow: 0 10px 25px rgba(0,0,0,0.08);
 }
 
 html {
@@ -44,9 +43,11 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
-  background: rgba(247, 244, 239, 0.96);
+}
+  .header {
+  background: rgba(255, 255, 255, 0.9);
   border-bottom: 1px solid var(--border);
-  backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
 }
 
 .nav {
@@ -142,11 +143,13 @@ body {
 
 .btn-primary {
   background: var(--primary);
-  color: var(--white);
+  color: #fff;
+  border-radius: 12px;
 }
 
 .btn-primary:hover {
   background: var(--primary-dark);
+  transform: translateY(-2px);
 }
 
 .btn-secondary {
@@ -166,7 +169,7 @@ body {
 .contact-form {
   background: var(--card);
   border: 1px solid var(--border);
-  border-radius: 18px;
+  border-radius: 16px;
   box-shadow: var(--shadow);
 }
 
