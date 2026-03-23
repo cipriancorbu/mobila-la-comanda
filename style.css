@@ -79,6 +79,10 @@ body {
   font-weight: 600;
 }
 
+.nav-links.show {
+  display: flex;
+}
+
 .nav-links {
   display: none;
   position: absolute;
@@ -86,14 +90,14 @@ body {
   right: 0;
   width: 220px;
 
-  background: #e0e0e0;
+  background: #e0e0e0; /* complet opac */
   border: 1px solid #cfcfcf;
   border-radius: 14px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 
   padding: 18px;
   flex-direction: column;
-  z-index: 999;
+  z-index: 9999;
 }
 
 .menu-toggle {
