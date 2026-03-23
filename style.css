@@ -5,10 +5,10 @@
 }
 
 :root {
-  --bg: #f2f2f2;
+  --bg: #f2f2f255;
   --text: #1f1f1f;
   --muted: #6a6a6a;
-  --primary:  #2c2c2c;
+  --primary:  #2c2c2c69;
   --primary-dark: #1a1a1a;
   --white: #ffffff;
   --card: #fffaf5;
