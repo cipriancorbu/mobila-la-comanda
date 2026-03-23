@@ -75,8 +75,12 @@ body {
 
 .nav-links a {
   text-decoration: none;
-  color: var(--text);
+  color: #1f1f1f;
   font-weight: 600;
+}
+
+.nav-links a:hover {
+  color: var(--primary);
 }
 
 .nav-links.show {
@@ -87,15 +91,15 @@ body {
   display: none;
   position: absolute;
   top: 72px;
-  right: 0;
+  right: 4%;
   width: 220px;
+  padding: 18px;
 
-  background: #e0e0e0; /* complet opac */
-  border: 1px solid #cfcfcf;
+  background: #dcdcdc; /* asta e cheia */
+  border: 1px solid #bfbfbf;
   border-radius: 14px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 
-  padding: 18px;
   flex-direction: column;
   z-index: 9999;
 }
@@ -350,11 +354,12 @@ body {
     right: 4%;
     width: 220px;
     padding: 18px;
-    background: var(--white);
-    border: 1px solid var(--border);
+    background: #dcdcdc;
+    border: 1px solid #bfbfbf;
     border-radius: 14px;
-    box-shadow: var(--shadow);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.18);
     flex-direction: column;
+    z-index: 9999;
   }
 
   .nav-links.show {
