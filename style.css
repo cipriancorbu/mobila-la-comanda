@@ -5,11 +5,11 @@
 }
 
 :root {
-  --bg: #f2f2f255;
+  --bg: lab(95.49% 0.01 -0.01 / 0);
   --text: #1f1f1f;
   --muted: #6a6a6a;
-  --primary:  #2c2c2c69;
-  --primary-dark: #1a1a1a;
+  --primary:  hsla(0, 0%, 17%, 0.377);
+  --primary-dark: hsla(0, 0%, 10%, 0.795);
   --white: #ffffff;
   --card: #fffaf5;
   --border: #e7ddd2;
